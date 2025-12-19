@@ -1,7 +1,8 @@
 // MissionSection.tsx
 import  { useEffect, useRef, useState } from "react";
 import "../style/mission.css";
-import missionImg from "../assets/Mission.png";
+import missionImg from "../assets/mission.png";
+
 
 function useInView<T extends HTMLElement>(threshold = 0.22) {
   const ref = useRef<T | null>(null);
